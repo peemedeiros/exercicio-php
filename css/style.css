@@ -1,0 +1,136 @@
+body{
+	background-image: linear-gradient(to right,#6e43c2,#4d77e5);
+	margin: 0px;
+	padding: 0px;
+}
+ul, li{
+	margin: 0px;
+	padding: 0px;
+}
+#cabecalho{
+	width: 100%;
+	height: 110px;
+	background-color: #252525;
+	margin-bottom: 70px;
+}
+.conteudo{
+	width: 1200px;
+	height: inherit;
+}
+.center{
+	margin-left: auto;
+	margin-right: auto;
+}
+.texto_cabecalho{
+	width: inherit;
+	height: 50px;
+	text-align: center;
+	font-family: verdana;
+	font-size:28px;
+	box-sizing: border-box;
+	padding-top: 8px;
+	font-weight: bold;
+	color:#ffffff;
+}
+.logo{
+	width: 50px;
+	height: 50px;
+	border-radius: 25px;
+	background-color: #ffffff
+
+}
+.logo img{
+	width: inherit;
+	height: inherit;
+}
+#principal{
+	width: 100%;
+	height: auto;
+	min-height: 600px;
+}
+.caixa_principal{
+	width: 750px;
+	height: 730px;
+    float: inherit;
+	background-color: #252525;
+	padding: 20px;
+	box-sizing: border-box;
+}
+.menu{
+	width: 80px;
+	height: 80px;
+	background-color: #252525;
+}
+.menu img{
+	width: inherit;
+	height: inherit;
+	cursor:pointer;
+}
+.menu img:hover{
+	background-image: linear-gradient(to right,#6e43c2,#4d77e5);
+	transition: 1s;
+}
+.menu_caixa{
+	width: 150px;
+	height: auto;
+	min-height: 60px;
+	background-color: #ffffff;
+	list-style: none;
+	position: relative;
+	top:-5px;
+	display:none;
+}
+.menu_caixa a{
+	text-decoration: none;
+	color: #000000;
+}
+.menu_itens{
+	width: inherit;
+	height: 60px;
+	box-sizing: border-box;
+	padding-top: 19px;
+	text-align: center;
+	background-color: #fff;
+	font-size: 18px;
+}
+.menu_itens:hover{
+	background-image: linear-gradient(to right,#6e43c2,#4d77e5);
+	transition: 1s;
+	cursor:pointer;
+}
+.sub_menu{
+	width:170px;
+	height: auto;
+	min-height: 30px;
+	background-color: #4d77e5;
+	list-style: none;
+	position: relative;
+	left: 150px;
+	top:-40px;
+	display: none;
+}
+#menu_calc:hover > .sub_menu{
+	display: block;
+}
+.sub_menu_itens{
+	width: inherit;
+	height: 30px;
+	box-sizing: border-box;
+	padding-top: 5px;
+	padding-left: 5px;
+	text-align: left;
+}
+.sub_menu_itens:hover{
+	
+	color:#ffffff;
+}
+.caixa_exercicios{
+	width:530px;
+	height: 610px;
+	/*min-height: 650px;*/
+	/*float: right;*/
+	background-color: #fff;
+	box-sizing: border-box;
+	padding: 20px;
+	margin-left: 180px;
+}

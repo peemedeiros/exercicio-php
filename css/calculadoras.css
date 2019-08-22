@@ -1,0 +1,59 @@
+#caixa{
+	width: 500px;
+	height: auto;
+	min-height: 307px;
+	border: solid 1px #000000;
+	margin: auto;
+	padding: 0px;
+	margin-bottom: 40px;
+}
+.titulo{
+	color: #ffffff;
+	background-color: #000000; 
+	padding: 0px;
+	margin:0px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+ form #valores{
+	width: inherit;
+	height: 60px;
+	margin-left:120px;
+}
+#opcoes{
+	width: 50%;
+	height: 150px;
+	background-color: #ccc;
+	padding-left: 10px;
+	padding-top: 10px;
+	box-sizing: border-box;
+	float: left;
+}
+.botao{
+	background-color: #000000;
+	color: #ffffff;
+}
+#resultado{
+	background-color: #000000;
+	color: #ffffff;
+	width: 50%;
+	height: 150px;
+	float: right;
+	text-align: center;
+	font-size: 80px;
+	box-sizing: border-box;
+	padding-top: 30px;
+}
+form{
+	width: inherit;
+	box-sizing: border-box;
+	margin: 0px;
+}
+#erro{
+	width: 502px;
+	margin: 0px;
+	text-align: center;
+	margin-bottom: 50px;
+	background-color:red;
+	color:#ffffff;
+}

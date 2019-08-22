@@ -1,0 +1,73 @@
+body,h1{
+	margin: 0px;
+	padding: 0px;
+}
+h2{
+	margin: 0px;
+	text-align: center;
+	background: red;
+	color:#fff;
+}
+#caixa{
+	width: 450px;
+	height: auto;
+	min-height: 450px;
+	margin-left: auto;
+	margin-right: auto;
+	border:solid 2px #000000;
+    margin-bottom: 30px;
+}
+.titulo{
+	text-align: center;
+	background-color: #000000;
+	color:#ffffff;
+	margin-bottom: 20px;
+}
+.container_caixas{
+	width: inherit;
+	height: 80px;
+	box-sizing: border-box;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+.caixa_de_texto{
+	margin-bottom: 15px;
+}
+.segura_inputs{
+	width: 360px;
+	height: 70px;
+	float: right;
+}
+.caixa_resultados{
+	width: inherit;
+	overflow: auto;
+	height: 313px;
+	background-color: #000000;
+}
+.caixa_resultados{
+	box-sizing: border-box;
+	padding: 20px;
+	padding-left: 50px;
+}
+.caixa_de_resultado{
+	width: 345px;
+	height: auto;	
+	min-height: 250px;
+	background-color: #ccc;
+	box-sizing: border-box;
+	padding: 10px;
+	text-align: center;
+	font-family: verdana;
+
+}
+.botao{
+	width: 160px;
+	height: 50px;
+	float: right;
+	position: relative;
+	top: -32px;
+}
+.botao_calc{
+	width: 100px;
+	height: inherit;
+}
